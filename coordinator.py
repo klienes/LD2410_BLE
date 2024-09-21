@@ -15,7 +15,7 @@ from .const import DOMAIN
 _LOGGER = logging.getLogger(__name__)
 
 NEVER_TIME = -86400.0
-DEBOUNCE_SECONDS = 1.0
+DEBOUNCE_SECONDS = 0.2
 
 
 class LD2410BLECoordinator(DataUpdateCoordinator[None]):
